@@ -1,0 +1,50 @@
+.weather-main {
+    background-color: #f0f8ff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-title {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.weather-temp {
+    font-size: 20px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.weather-cond {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
